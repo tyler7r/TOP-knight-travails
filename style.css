@@ -45,7 +45,7 @@ body {
     grid-template-rows: 1fr 12fr;
     gap: 8px;
     width: clamp(450px, 90vw, 800px);
-    height: clamp(500px, 75vh, 800px);
+    height: clamp(450px, 75vh, 800px);
 }
 
 .clicked {
@@ -54,7 +54,6 @@ body {
 }
 
 .path {
-    /* transition: background 0.1s; */
     background-color: pink;
 }
 
