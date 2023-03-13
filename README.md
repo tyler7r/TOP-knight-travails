@@ -1,5 +1,7 @@
 # TOP-knight-travails
 
+Website = https://tyler7r.github.io/TOP-knight-travails/;
+
 This project tested my data algorithm skills. Using my knowledge of binary search trees. I created all possible squares on a chess board as objects. 
 
 Within each of these square objects, I made a property for each of the eight possible moves that could be made from each square. 
