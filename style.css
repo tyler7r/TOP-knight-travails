@@ -45,7 +45,7 @@ body {
     grid-template-rows: 1fr 12fr;
     gap: 8px;
     width: clamp(450px, 90vw, 800px);
-    height: clamp(450px, 75vh, 800px);
+    height: clamp(350px, 75vh, 500px);
 }
 
 .clicked {
