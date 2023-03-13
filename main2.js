@@ -232,7 +232,7 @@ function userI() {
             UI.textContent = `It Took ${knight.moveNum} Moves`;
             UI.appendChild(reset);
             initializeResetBtn();
-        }, 1500);
+        }, 300);
     }
 }
 

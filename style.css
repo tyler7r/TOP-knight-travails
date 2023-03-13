@@ -44,8 +44,8 @@ body {
     grid-template-columns: 1fr 12fr;
     grid-template-rows: 1fr 12fr;
     gap: 8px;
-    width: clamp(450px, 90vw, 800px);
-    height: clamp(350px, 75vh, 500px);
+    width: clamp(500px, 90vw, 800px);
+    height: clamp(350px, 75vh, 550px);
 }
 
 .clicked {
@@ -106,6 +106,6 @@ body {
     font-weight: bold;
     color: pink;
     margin-bottom: -4px;
-    width: clamp(450px, 90vw, 800px);
+    width: clamp(500px, 90vw, 800px);
     text-align: center;
 }
