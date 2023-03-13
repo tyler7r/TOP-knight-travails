@@ -108,12 +108,16 @@ let i = 0;
 function printPath(array) {
     setTimeout(function() {
         if (i === array.length) return;
-        if (i === 0 || i === array.length-1) {
+        let coveredSquare = document.querySelector(`#square${array[i].x}${array[i].y}`);
+        if (i === 0) {
             i++;
+            printPath(knight.path);
+        } else if (i === array.length-1) {
+            i++;
+            coveredSquare.textContent = `End (${knight.moveNum})`
             printPath(knight.path);
         } else {
             let moveNum = gameboard[`square${array[i].x}${array[i].y}`].moves;
-            let coveredSquare = document.querySelector(`#square${array[i].x}${array[i].y}`);
             coveredSquare.classList.add('path');
             coveredSquare.textContent = moveNum;
             i++;
