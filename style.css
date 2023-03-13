@@ -54,7 +54,7 @@ body {
 }
 
 .path {
-    transition: background 0.5s;
+    /* transition: background 0.1s; */
     background-color: pink;
 }
 
