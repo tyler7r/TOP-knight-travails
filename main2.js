@@ -123,7 +123,7 @@ function printPath(array) {
             i++;
             printPath(knight.path);
         }
-    }, 300)
+    }, 700)
 }
 
 const board = document.querySelector('.gameboard');
